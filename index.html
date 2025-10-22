@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quote Generator</title>
     <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <main>
-        <div class="quote-text">
-            If you tell the truth, you don't have to remember anything.
-        </div>
-        <div class="quote-author">Mark Twain</div>
-        <div class="quote-btns">
-            <button><i class="fa-brands fa-x-twitter"></i></button>
-            <button id="new-quote-btn">New Quote</button>
+        <div class="quote-container">
+            <blockquote class="quote-text">
+                If you tell the truth, you don't have to remember anything.
+            </blockquote>
+            <cite class="quote-author">Mark Twain</cite>
+            <div class="quote-btns">
+                <button id="twitter-btn" aria-label="Share on Twitter"><i class="fa-brands fa-x-twitter fa-lg"></i></button>
+                <button id="copy-btn" aria-label="Copy quote"><i class="fa-solid fa-copy fa-lg"></i></button>
+                <button id="new-quote-btn">New Quote</button>
+            </div>
         </div>
     </main>
     <!-- Script -->
-    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/f825b9fd10.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script>
 </body>
 </html>

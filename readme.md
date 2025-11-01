@@ -1,6 +1,7 @@
 # Quote Generator with Vanilla JavaScript, HTML and CSS
 
 * This is random quote generator project. I am using and fetching quotes from a lightweight jsonl local dataset.
+    * [Click here to see live preview of the project.](https://js-quote-generator-alchy123.netlify.app/)
 * I used a mobile-first design approach about responsive design.
 * Dataset I implemented: [Abirate English Quotes from Hugging Face](https://huggingface.co/datasets/Abirate/english_quotes/tree/main)
     * Dataset was not good enough for me to use directly. I was in need of some other properties like id and quoteLength for my objects. For this purpose, I wrote a script with JavaScript and it's currently named '[jsonl-manipulation.js](./jsonl-manipulation.js)'. I just did manually used this script.
